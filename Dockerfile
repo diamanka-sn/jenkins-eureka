@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:23-slim
 EXPOSE 8761
 
 WORKDIR /app
