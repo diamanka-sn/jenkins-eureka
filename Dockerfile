@@ -1,4 +1,4 @@
-FROM openjdk:23-slim
+FROM openjdk:8
 EXPOSE 8761
 
 ADD target/eureka-service.jar eureka-service.jar
